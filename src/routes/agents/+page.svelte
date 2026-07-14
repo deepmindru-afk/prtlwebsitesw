@@ -1,5 +1,5 @@
 <script>
-  export let url = "https://ag.portalos.ru"; // Change this to the desired URL
+  export let url = "https://portalos.ru"; // Change this to the desired URL
 </script>
 
 <style>
