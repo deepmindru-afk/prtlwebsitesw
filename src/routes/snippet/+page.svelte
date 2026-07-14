@@ -1,5 +1,5 @@
 <script>
-  export let url = "https://meet.portalos.ru"; // Change this to the desired URL
+  export let url = "https://meet.portalos.online/"; // Change this to the desired URL
 </script>
 
 <style>
