@@ -102,6 +102,28 @@
 				{/each}
 			</div>
 		</IntroductionLink>
-		
+		<IntroductionLink
+			title="Облачный компьютер"
+			description="Полноценный виртуальный ПК в облаке с диалоговым интерфейсом. Запускайте приложения, управляйте файлами и работайте с AI-агентами через чат или голос."
+			href="https://prtl.cc"
+		>
+			<div class="flex items-center justify-center gap-3">
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.Command aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.Router aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.Database aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+			</div>
+		</IntroductionLink>
 	</section>
 </PageWrapper>
