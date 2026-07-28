@@ -125,5 +125,51 @@
 				</div>
 			</div>
 		</IntroductionLink>
+		<IntroductionLink
+			title="Ресеч"
+			description="Исследовательский портал с базами знаний, технической документацией и аналитикой. Открытые данные, API и инструменты для разработчиков."
+			href="/brands"
+		>
+			<div class="flex items-center justify-center gap-3">
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.ChartBarPeak aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.Globe aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.Information aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+			</div>
+		</IntroductionLink>
+		<IntroductionLink
+			title="Чат и Роботизация"
+			description="Автоматизация бизнес-процессов с помощью AI-агентов. Чат-боты, голосовые ассистенты, RPA и оркестрация корпоративных сервисов."
+			href="/colors"
+		>
+			<div class="flex items-center justify-center gap-3">
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.GitBranch aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.SettingsSliders aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+				<div
+					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
+				>
+					<Icons.CodeBracket aria-hidden="true" class="size-10 text-gray-1000" />
+				</div>
+			</div>
+		</IntroductionLink>
 	</section>
 </PageWrapper>
