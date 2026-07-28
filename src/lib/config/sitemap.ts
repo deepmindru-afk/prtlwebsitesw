@@ -33,7 +33,7 @@ export const aside_items: Aside = {
 		},
 		//{
 		//	title: 'Бессерверная облачная ОС',
-		//	href: 'https://prtl.cc',
+		//	href: 'https://portalos.ru',
 		//	status: 'draft'
 		//},
 		{
@@ -48,7 +48,7 @@ export const aside_items: Aside = {
 	//Премиум: [
 	//	{
 	//		title: 'Портал ОС',
-	//		href: 'https://prtl.cc',
+	//		href: 'https://portalos.ru',
 	//		status: 'new'
 	//	},
 	//]	

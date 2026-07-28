@@ -105,7 +105,7 @@
 		<IntroductionLink
 			title="Облачный компьютер"
 			description="Полноценный виртуальный ПК в облаке с диалоговым интерфейсом. Запускайте приложения, управляйте файлами и работайте с AI-агентами через чат или голос."
-			href="https://prtl.cc"
+			href="https://portalos.ru"
 		>
 			<div class="flex items-center justify-center gap-3">
 				<div
