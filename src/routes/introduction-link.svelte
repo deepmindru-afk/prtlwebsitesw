@@ -24,7 +24,7 @@
 	<slot></slot>
 	<div class="mt-auto">
 		<p class="font-semibold">{title}</p>
-		<p class="text-gray-900">{description}</p>
+		<p class="text-justify text-gray-900">{description}</p>
 	</div>
 	<div
 		class="pointer-events-none absolute inset-0 z-10 border-2 border-blue-700 opacity-0 group-focus-visible:opacity-100"
