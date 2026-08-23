@@ -37,12 +37,24 @@
 		'--pink-800',
 	];
 
-	const preview_colors1 = [
-		'--red-800',
-		'--amber-800',
-		'--green-800',
-		'--teal-800'
-	];
+ 	const preview_colors1 = [
+ 		'--red-800',
+ 		'--amber-800',
+ 		'--green-800',
+ 		'--teal-800'
+ 	];
+
+ 	const all_colors = [...preview_colors, ...preview_colors1];
+
+ 	function randomColors(count = 4) {
+ 		const pool = [...all_colors];
+ 		for (let i = pool.length - 1; i > 0; i--) {
+ 			const j = Math.floor(Math.random() * (i + 1));
+ 			[pool[i], pool[j]] = [pool[j], pool[i]];
+ 		}
+ 		return pool.slice(0, count);
+ 	}
+
 </script>
 
 <PageWrapper
@@ -66,7 +78,7 @@
 			class="bg-clip-padding"
 		>
 			<div class="flex justify-between">
-				{#each preview_colors as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
@@ -81,7 +93,7 @@
 			href="https://ui.portalos.ru"
 		>
 			<div class="flex justify-between">
-				{#each preview_colors as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
@@ -96,7 +108,7 @@
 			href="/snippet"
 		>
 		<div class="flex justify-between">
-				{#each preview_colors1 as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
@@ -111,7 +123,7 @@
 			href="https://portalos.ru"
 		>
 			<div class="flex justify-between">
-				{#each preview_colors as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
@@ -126,7 +138,7 @@
 			href="/brands"
 		>
 			<div class="flex justify-between">
-				{#each preview_colors1 as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
@@ -141,7 +153,7 @@
 			href="/colors"
 		>
 			<div class="flex justify-between">
-				{#each preview_colors1 as color}
+				{#each randomColors() as color}
 					<div
 						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
 					>
