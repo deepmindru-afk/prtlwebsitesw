@@ -65,11 +65,14 @@
 			href="/agents"
 			class="bg-clip-padding"
 		>
-			<div class="relative mx-auto w-fit">
-				<Icons.BrandAssets aria-hidden="true" height="96" width="322" />
-				<div
-					class="absolute inset-0 transition-[box-shadow] delay-0 [box-shadow:_0_0_8px_8px_var(--background-200)_inset] group-hover:[box-shadow:_0_0_8px_8px_var(--background-100)_inset]"
-				></div>
+			<div class="flex justify-between">
+				{#each preview_colors as color}
+					<div
+						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
+					>
+						<div class="h-[72px] w-2 rounded-full" style="background: var({color});"></div>
+					</div>
+				{/each}
 			</div>
 		</IntroductionLink>
 		<IntroductionLink
@@ -107,22 +110,14 @@
 			description="Полноценный виртуальный ПК в облаке с диалоговым интерфейсом. Запускайте приложения, управляйте файлами и работайте с AI-агентами через чат или голос."
 			href="https://portalos.ru"
 		>
-			<div class="flex items-center justify-center gap-3">
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.Command aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.Router aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.Database aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
+			<div class="flex justify-between">
+				{#each preview_colors as color}
+					<div
+						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
+					>
+						<div class="h-[72px] w-2 rounded-full" style="background: var({color});"></div>
+					</div>
+				{/each}
 			</div>
 		</IntroductionLink>
 		<IntroductionLink
@@ -130,22 +125,14 @@
 			description="Исследовательский портал с базами знаний, технической документацией и аналитикой. Открытые данные, API и инструменты для разработчиков."
 			href="/brands"
 		>
-			<div class="flex items-center justify-center gap-3">
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.ChartBarPeak aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.Globe aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.Information aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
+			<div class="flex justify-between">
+				{#each preview_colors1 as color}
+					<div
+						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
+					>
+						<div class="h-[72px] w-2 rounded-full" style="background: var({color});"></div>
+					</div>
+				{/each}
 			</div>
 		</IntroductionLink>
 		<IntroductionLink
@@ -153,22 +140,14 @@
 			description="Автоматизация бизнес-процессов с помощью AI-агентов. Чат-боты, голосовые ассистенты, RPA и оркестрация корпоративных сервисов."
 			href="/colors"
 		>
-			<div class="flex items-center justify-center gap-3">
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.GitBranch aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.SettingsSliders aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
-				<div
-					class="flex h-[80px] w-[80px] items-center justify-center rounded-2xl border border-gray-alpha-400 bg-background-200"
-				>
-					<Icons.CodeBracket aria-hidden="true" class="size-10 text-gray-1000" />
-				</div>
+			<div class="flex justify-between">
+				{#each preview_colors1 as color}
+					<div
+						class="flex h-[96px] w-[32px] items-center justify-center overflow-hidden rounded-full border border-gray-alpha-400 bg-background-200"
+					>
+						<div class="h-[72px] w-2 rounded-full" style="background: var({color});"></div>
+					</div>
+				{/each}
 			</div>
 		</IntroductionLink>
 	</section>
